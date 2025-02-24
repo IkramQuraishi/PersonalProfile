@@ -1,5 +1,5 @@
 .contact-section {
-  background-image: url('.../assets/pics/bg_form.png'); /* Replace with your image or Google Map snapshot */
+  background-image: url('assets/pics/bg_form.png'); /* Replace with your image or Google Map snapshot */
   background-size: cover;
   background-position: center;
   padding: 50px 0;

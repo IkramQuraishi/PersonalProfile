@@ -68,9 +68,9 @@ import { FormsModule } from '@angular/forms';
         <div class="col-md-6">
           <div class="contact-info">
             <h3>Contact Information</h3>
-            <p><strong>Address:</strong> {{ basicInfo?.address }}</p>
-            <p><strong>Phone:</strong> {{ basicInfo?.phone }}</p>
-            <p><strong>Email:</strong> {{ basicInfo?.email }}</p>
+            <p><strong>Address:</strong> {{ basicInfo.address }}</p>
+            <p><strong>Phone:</strong> {{ basicInfo.phone }}</p>
+            <p><strong>Email:</strong> {{ basicInfo.email }}</p>
           </div>
         </div>
       </div>

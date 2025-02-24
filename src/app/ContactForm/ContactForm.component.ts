@@ -8,7 +8,11 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-contact-form',
   imports: [CommonModule,FormsModule],
   template: `
-  <div class="contact-section">
+  <div style=" background-image: url('assets/pics/bg_form.png'); /* Replace with your image or Google Map snapshot */
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  min-height: 400px;">
   <div class="contact-overlay">
     <div class="container">
       <div class="row">

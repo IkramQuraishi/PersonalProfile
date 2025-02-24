@@ -1,10 +1,10 @@
-.contact-section {
-  background-image: url({{bgurl}}); /* Replace with your image or Google Map snapshot */
+/* .contact-section {
+  background-image: url('/assets/pics/bg_form.png'); 
   background-size: cover;
   background-position: center;
   padding: 50px 0;
-  min-height: 400px; /* Ensures visibility when scrolled to */
-}
+  min-height: 400px; 
+} */
 
 .contact-overlay {
   background-color: rgba(255, 255, 255, 0.8);

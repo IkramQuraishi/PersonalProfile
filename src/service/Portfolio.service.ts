@@ -13,8 +13,8 @@ import { ISocialIcon } from '../model/ISocialIcon';
 export class PortfolioService {
   private personalInfo: IPersonalInfo = {
     name: 'Ikramullah Quraishi',
-    profileImage: '/assets/pics/Photo_profile_site.jpg',
-    bgImage: '/assets/pics/bg.jpg',
+    profileImage: './assets/pics/Photo_profile_site.jpg',
+    bgImage: './assets/pics/bg.jpg',
     titles: ['Full Stack .Net Developer', 'AI Developer', 'Father']
   };
 
@@ -40,10 +40,10 @@ export class PortfolioService {
   ];
 
   private portfolioItems: IPortfolioItem[] = [
-    { imageUrl: '/assets/projects/project1.jpg', caption: 'Sample Project 1 ' },
-    { imageUrl: '/assets/projects/project2.jpg', caption: 'Sample Project 2' },
-    { imageUrl: '/assets/projects/project3.jpg', caption: 'Sample Project 3' },
-    { imageUrl: '/assets/projects/project4.jpg', caption: 'Sample Project 4' }
+    { imageUrl: './assets/projects/project1.jpg', caption: 'Sample Project 1 ' },
+    { imageUrl: './assets/projects/project2.jpg', caption: 'Sample Project 2' },
+    { imageUrl: './assets/projects/project3.jpg', caption: 'Sample Project 3' },
+    { imageUrl: './assets/projects/project4.jpg', caption: 'Sample Project 4' }
   ];
 
   private experiences: IExperience[] = [

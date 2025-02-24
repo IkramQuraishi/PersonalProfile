@@ -1,0 +1,20 @@
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #002C55; /* Custom blue from your design */
+  color: #ffffff;
+  border-bottom: none;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  padding: 5px 0;
+}

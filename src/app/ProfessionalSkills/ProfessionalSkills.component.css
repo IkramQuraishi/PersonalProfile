@@ -1,0 +1,11 @@
+/* Optional: Fine-tune spacing or styling */
+.progress {
+  margin-bottom: 1rem; /* Space between progress bars */
+}
+/* Ensure responsiveness and alignment */
+@media (max-width: 767px) {
+  .col-md-6 {
+    flex: 0 0 100%; /* Stack columns on mobile */
+    max-width: 100%;
+  }
+}

@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  .bg-success {
+    background-color: #002C55 !important;
+  }
+  
+  /* Override Bootstrap's btn-success for buttons */
+  .btn-success {
+    background-color: #002C55 !important;
+    border-color: #002C55 !important;
+  }
+  
+  /* Ensure hover and active states for buttons match the custom color */
+  .btn-success:hover,
+  .btn-success:active,
+  .btn-success:focus {
+    background-color: #001d3d !important; /* Slightly lighter shade for hover/active, optional */
+    border-color: #001d3d !important;
+  }
+  
+  /* Optional: Ensure text color contrasts well with the dark blue background */
+  .bg-success, .btn-success {
+    color: #ffffff !important; /* White text for good contrast with #002C55 */
+  }
+  
+  /* Optional: Adjust card header text color if needed */
+  .card-header.bg-success {
+    color: #ffffff !important; /* White text for card headers */
+  }

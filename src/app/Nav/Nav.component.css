@@ -1,0 +1,25 @@
+.navbar {
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+.navbar.bg-success {
+  background-color: #002C55 !important;
+}
+.navbar-transparent {
+  background-color: transparent !important;
+}
+/* Optional: Adjust padding or styling for mobile */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #002C55;
+    padding: 1rem;
+  }
+  .navbar-collapse .navbar-nav,
+  .navbar-collapse .d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-collapse .ms-2 {
+    margin-left: 0 !important; /* Reset margin for mobile stacking */
+  }
+}

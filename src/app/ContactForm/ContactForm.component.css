@@ -1,0 +1,33 @@
+.contact-section {
+  background-image: url('/assets/pics/bg_form.png'); /* Replace with your image or Google Map snapshot */
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  min-height: 400px; /* Ensures visibility when scrolled to */
+}
+
+.contact-overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+p {
+  color: #666;
+}
+
+.btn-success {
+  background-color: #002C55; /* Custom color; adjust as needed */
+  border-color: #002C55;
+}

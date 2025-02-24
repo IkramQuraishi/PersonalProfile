@@ -92,6 +92,7 @@ export class ContactFormComponent implements OnInit {
 
   ngOnInit() {
     this.basicInfo = this.portfolioService.getBasicInfo();
+    let bgurl="assets/pics/bg_form.png";
   }
 
   onSubmit() {
